@@ -1,0 +1,43 @@
+.projects .grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+}
+
+.projects .grid-item {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #e2e2e2;
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: 8px 8px 2px -3px rgba(235, 235, 235, 1);
+}
+
+.projects .project-name {
+  margin: 0;
+  font-size: 18px;
+}
+
+.projects .project-tech {
+  margin: 10px 0;
+  font-style: italic;
+}
+
+.projects img {
+  width: 100%;
+}
+
+.projects .project-link {
+  width: fit-content;
+  margin-top: 12px;
+  padding: 10px 20px;
+  border-radius: 8px;
+  background-color: #81b29a;
+  text-decoration: none;
+  font-weight: 500;
+  color: #fff;
+}
+
+.projects .project-link:hover {
+  opacity: 0.7;
+}

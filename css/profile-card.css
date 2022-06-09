@@ -1,0 +1,59 @@
+aside {
+  grid-area: side;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-left: 40px;
+}
+
+.photo-card {
+  height: fit-content;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffcdb2;
+  padding: 40px 50px;
+  border-radius: 10px;
+  box-shadow: 8px 8px 2px -3px rgba(235, 235, 235, 1);
+}
+
+.photo-card img {
+  width: 200px;
+  border-radius: 100%;
+}
+
+.photo-card h3 {
+  font-size: 38px;
+  margin: 40px 0;
+}
+
+.photo-card span {
+  background-color: #81b29a;
+  height: 3px;
+  width: 80px;
+}
+
+.photo-card .socials {
+  margin-top: 40px;
+  font-size: 32px;
+  font-weight: 300;
+}
+
+.photo-card .socials a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #666;
+}
+
+.fa-github-square:hover {
+  color: #000;
+}
+
+.fa-linkedin:hover {
+  color: #0072b1;
+}
+
+.fa-instagram-square:hover {
+  color: #833ab4;
+}
